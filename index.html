@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Profile</title>
+    
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        
+        .profile {
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #38bdf8;
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+            margin-bottom: 15px;
+        }
+
+        .profile-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .profile-bio{
+            font-size: 1.0rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        
+        .links {
+            display: flex;                                
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 16px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 1rem;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+              <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq9AAyVRB-b4KJcYYbZeGnuZD85riL53JGATXje5YQnw&s=10" alt="Profile Picture" class="profile-img">
+            <h1 class="profile-name">Hafiz Rizki</h1>
+            <h2 class="profile-bio">seorang siswa smk tunas harapan pati yang berjurusan tjkt</h2>  
+        </div>
+
+        <div class="links">
+            <a href="https://www.tiktok.com/@mem112zeget?is_from_webapp=1&sender_device=pc" target="_blank" class="link-card tiktok">
+                <i class="fa-brands fa-tiktok"></i>
+                <span>TikTok</span>
+           </a>
+
+            <a href="https://www.facebook.com/share/1Dk1TNWeEx/" target="_blank" class="link-card facebook">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Facebook</span>
+            </a>
+
+            <a href="https://github.com/haed364" target="_blank" class="link-card github">
+                <i class="fa-brands fa-github"></i>
+                <span>github</span>
+            </a>
+            
+             <a href="https://www.youtube.com/@QWTIER5261" target="_blank" class="link-card youtube">
+                <i class="fa-brands fa-youtube"></i>
+                <span>YouTube</span>
+            </a>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
